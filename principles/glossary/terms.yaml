@@ -136,6 +136,7 @@ terms:
     also: [differential fuel pressure, fuel pressure differential, delta fuel pressure, effective fuel pressure]
     kind: quantity
     layer: L1
+    channel: fuel_dp_kpa
     def: Rail pressure minus manifold pressure; the pressure that actually drives injector flow.
   - id: ignition_advance
     term: Ignition advance

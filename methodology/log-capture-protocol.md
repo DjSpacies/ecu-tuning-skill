@@ -2,7 +2,6 @@
 id: methodology/log-capture-protocol
 title: Capturing a log that can be tuned from
 layer: L2
-status: draft
 confidence: medium
 sources: [practice, vendor-documentation]
 verified: 2026-11-11

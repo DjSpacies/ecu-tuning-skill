@@ -2,7 +2,6 @@
 id: methodology/cold-start-warmup
 title: Cold start and warm-up
 layer: L2
-status: draft
 confidence: high
 sources: [practice, engineering-texts]
 verified: 2026-11-11

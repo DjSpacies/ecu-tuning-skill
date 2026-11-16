@@ -2,7 +2,6 @@
 id: applications/turbocharged
 title: Turbocharged profile
 layer: L4
-status: draft
 confidence: high
 sources: [practice, engineering-texts]
 verified: 2026-11-11

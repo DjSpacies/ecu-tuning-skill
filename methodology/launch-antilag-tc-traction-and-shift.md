@@ -2,7 +2,6 @@
 id: methodology/launch-antilag-tc-traction-and-shift
 title: Traction control, torque delivery and shift cut
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

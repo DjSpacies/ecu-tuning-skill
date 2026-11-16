@@ -2,7 +2,6 @@
 id: methodology/nitrous
 title: Nitrous oxide tuning
 layer: L2
-status: draft
 confidence: low
 sources: [practice]
 verified: 2026-11-11

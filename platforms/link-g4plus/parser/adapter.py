@@ -56,7 +56,15 @@ def _resample(raw, notes):
     notes.append(f"channels recorded on change; resampled to {1/dt:.0f} Hz holding the last value; {len(holes)} recording hole(s) over {HOLE_S} s left out")
     return out
 
+def load_live_log(path):
+    """A log recorded by the link-g4plus-mcp live tool (`.live.json`): already canonical channels and units."""
+    import json
+    d = json.loads(Path(path).read_text(encoding="utf8"))
+    meta = dict(d.get("meta", {}), notes=list(d.get("meta", {}).get("notes", [])) + ["recorded live by link-g4plus-mcp; channels not marked verified were not yet compared with PCLink"])
+    return Log(d["time_s"], d["channels"], meta)
+
 def load_log(path):
+    if str(path).endswith(".live.json"): return load_live_log(path)
     parsed = llg.parse_llg(path); raw = parsed["channels"]
     cfg, limiters = _config("channels.yaml")
     channels, used, notes = {}, {}, []
@@ -69,10 +77,17 @@ def load_log(path):
         rx = re.compile(rule["match"], re.I)
         # A channel declared but never recorded holds two samples; prefer computed channels over raw "AN" inputs.
         hits = [k for k in raw if rx.search(k) and recorded[k] > 2]
+        # A channel that never changed is recorded only at the ends; keep it when nothing better matches
+        # (an engine-off log has a constant Engine Speed of 0).
+        fallback = not hits
+        if fallback: hits = [k for k in raw if rx.search(k) and recorded[k] >= 1]
         if not hits: continue
         k = min(hits, key=lambda h: (h.startswith("AN"), -recorded[h])); c = raw[k]
         if len(c["values"]) != n: notes.append(f"{k}: sample count differs, skipped"); continue
-        channels[rule["canonical"]] = _convert(rule["convert"], c["unit"], c["values"], notes, k)
+        try: channels[rule["canonical"]] = _convert(rule["convert"], c["unit"], c["values"], notes, k)
+        except ValueError:
+            if not fallback: raise
+            notes.append(f"{k}: constant channel with no usable unit, skipped"); continue
         used[rule["canonical"]] = k
     # A limiter name can also be declared for its setpoint (e.g. a MAP limit of 235); only small-integer status columns count.
     cands = [k2 for k in limiters for k2 in raw if k2 == k or k2.startswith(k + " #")]

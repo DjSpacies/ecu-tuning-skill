@@ -2,7 +2,6 @@
 id: principles/airflow/volumetric-efficiency
 title: Volumetric efficiency and cylinder filling
 layer: L1
-status: draft
 confidence: high
 sources: [engineering-texts, practice]
 verified: 2026-11-11

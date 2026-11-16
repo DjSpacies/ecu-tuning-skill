@@ -2,7 +2,6 @@
 id: platforms/link-g4plus/inference
 title: What Link G4+ files reveal about the hardware
 layer: L3
-status: draft
 confidence: medium
 sources: [vendor-documentation, file-format-analysis]
 verified: 2026-11-10

@@ -1,3 +1,5 @@
-# Mapping for a live tool implementing docs/MCP-INTERFACE.md.
+# Mapping for a live tool implementing docs/MCP-INTERFACE.md. For G4+ firmware 5.6.8.3671 the link-g4plus-mcp live
+# tool (github.com/DjSpacies/link-g4plus-mcp) implements it; canonical channel -> runtime DataId is defined there.
 version: 1
-status: not-implemented
+implementation: https://github.com/DjSpacies/link-g4plus-mcp
+log_format: .live.json (read by parser/adapter.py load_log)

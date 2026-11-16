@@ -2,7 +2,6 @@
 id: methodology/data-quality
 title: Data quality for tuning logs
 layer: L2
-status: draft
 confidence: high
 sources: [practice, reference-data]
 verified: 2026-11-11

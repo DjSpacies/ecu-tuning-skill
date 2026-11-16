@@ -2,7 +2,6 @@
 id: methodology/steady-state-fuel
 title: Steady-state fuel tuning
 layer: L2
-status: draft
 confidence: high
 sources: [practice, engineering-texts]
 verified: 2026-11-11

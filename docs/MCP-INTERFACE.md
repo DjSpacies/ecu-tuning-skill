@@ -34,9 +34,16 @@ pre-authorised policy within safety/limits). Tools must reject writes outside de
 JSON-RPC 2.0, one object per line, with method names as the operation names above and parameters by name. An MCP server can expose the same operations as tools. A method not supported returns error code -32601; bad parameters -32602; a refused operation -32000 with `data.reason`.
 
 ## Error reasons
-`unknown_channel`, `unknown_table`, `unknown_scalar`, `unknown_log`, `unknown_backup`, `unknown_proposal`, `out_of_range`, `out_of_bounds`, `not_approved`, `no_backup`, `not_logging`.
+`unknown_channel`, `unknown_table`, `unknown_scalar`, `unknown_log`, `unknown_backup`, `unknown_proposal`, `out_of_range`, `out_of_bounds`, `not_approved`, `no_backup`, `not_logging`, `not_writable`, `safety_gate`, `write_failed`.
 
 ## Write rules (normative)
 - `propose_write(changes)`: each change is `{table, row, col, value}`. It has no effect, returns a `proposal_id` and a diff with `before` and `after`, and rejects anything outside bounds.
 - `apply_write(proposal_id, approval_token)`: requires a backup taken first and a human-issued token. Tokens and proposals are single use.
 - A tool must not offer a write path that skips these.
+- How the approval token is issued is up to the implementation.
+
+## Implementations
+- Link G4+: [link-g4plus-mcp](https://github.com/DjSpacies/link-g4plus-mcp), a direct-connection live tool and MCP
+  server (live data, logging, table reads, bounded fuel-table writes with backup, journal and auto-revert). It issues
+  approval tokens from the owner's approval in the chat, quoted verbatim and recorded, or optionally from a physical
+  handshake seen in live data. Its `.live.json` logs load through platforms/link-g4plus/parser/adapter.py.

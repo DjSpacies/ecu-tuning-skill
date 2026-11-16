@@ -2,7 +2,6 @@
 id: methodology/thermo-charge-temp-estimation
 title: Charge temperature estimation and heat-soak testing
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

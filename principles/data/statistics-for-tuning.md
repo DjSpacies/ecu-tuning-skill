@@ -2,7 +2,6 @@
 id: principles/data/statistics-for-tuning
 title: Statistics for trustworthy tuning data
 layer: L0
-status: draft
 confidence: medium
 sources: [reference-data, practice]
 verified: 2026-11-11

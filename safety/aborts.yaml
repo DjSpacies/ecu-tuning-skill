@@ -1,6 +1,5 @@
 # Abort rules applied to every run. docs/SAFETY.md rule 6. `limit` names an entry in limits.yaml when the trigger has a number.
 version: 1
-status: draft
 verified: 2026-11-10
 aborts:
   - id: knock_event

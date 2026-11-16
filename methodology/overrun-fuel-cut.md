@@ -2,7 +2,6 @@
 id: methodology/overrun-fuel-cut
 title: Overrun and fuel cut
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

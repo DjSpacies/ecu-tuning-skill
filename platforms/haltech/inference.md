@@ -2,7 +2,6 @@
 id: platforms/haltech/inference
 title: What Haltech files reveal
 layer: L3
-status: draft
 confidence: low
 sources: [vendor-documentation]
 verified: 2026-11-10

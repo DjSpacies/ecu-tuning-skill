@@ -2,7 +2,6 @@
 id: methodology/reflash-tuning
 title: Tuning through a factory ECU reflash
 layer: L2
-status: draft
 confidence: medium
 sources: [practice, vendor-documentation]
 verified: 2026-11-11

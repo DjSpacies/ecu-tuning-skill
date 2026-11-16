@@ -2,7 +2,6 @@
 id: methodology/airflow-ve-table-shaping
 title: Building and shaping the VE table
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

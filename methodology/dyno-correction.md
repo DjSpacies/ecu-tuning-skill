@@ -2,7 +2,6 @@
 id: methodology/dyno-correction
 title: Dyno correction and comparing dyno numbers
 layer: L2
-status: draft
 confidence: medium
 sources: [practice, sae-j1349]
 verified: 2026-11-11

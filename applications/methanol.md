@@ -2,7 +2,6 @@
 id: applications/methanol
 title: Methanol profile
 layer: L4
-status: draft
 confidence: medium
 sources: [engineering-texts, reference-data, practice]
 verified: 2026-11-11

@@ -2,7 +2,6 @@
 id: principles/myths/torque-drop-reveals-knock
 title: Myth: a dyno torque drop, mixture or exhaust temperature will reveal knock
 layer: L1
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

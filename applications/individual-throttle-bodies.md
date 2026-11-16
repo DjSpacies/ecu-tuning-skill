@@ -2,7 +2,6 @@
 id: applications/individual-throttle-bodies
 title: Individual throttle body profile
 layer: L4
-status: draft
 confidence: low
 sources: [practice]
 verified: 2026-11-11

@@ -2,7 +2,6 @@
 id: principles/data/sensor-lag-and-delay
 title: Sensor lag and transport delay
 layer: L1
-status: draft
 confidence: medium
 sources: [engineering-texts, practice]
 verified: 2026-11-11

@@ -17,6 +17,7 @@ Paths below are relative to this skill's directory. Work for one vehicle lives i
 |---|---|
 | How should I record a log? / Was this log captured well? | `log-capture` |
 | Is this log any good? | `log-health-check` |
+| Why is it doing this? / What is wrong before I tune? | `diagnostics-scan` |
 | Fuel or lambda errors | `fuel-trim-analysis` |
 | Correct the fuel table | `ve-correction` |
 | Knock and ignition | `ignition-knock-review` |

@@ -2,7 +2,6 @@
 id: principles/fuels/octane-rating
 title: What octane numbers measure
 layer: L0
-status: draft
 confidence: high
 sources: [engineering-texts, astm-fuel-standards, reference-data, practice]
 verified: 2026-11-11

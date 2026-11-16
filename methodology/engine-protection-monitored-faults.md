@@ -2,7 +2,6 @@
 id: methodology/engine-protection-monitored-faults
 title: Protection from monitored faults (oil, fuel, lambda, EGT, coolant)
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

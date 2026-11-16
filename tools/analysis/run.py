@@ -12,10 +12,11 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path[:0] = [str(HERE), str(ROOT / "tools" / "log-schema")]
 import analyses                                # noqa: E402
+import diagnostics                             # noqa: E402
 from limits import Limits                      # noqa: E402
 from profile import Profile, infer_from_log, infer_from_tune    # noqa: E402
 
-REQUIRED = {"log-health-check": [], "log-capture-review": [], "fuel-trim-analysis": ["fuel", "wideband_valid", "tune_matches_log", "live_edits_during_log"], "ignition-knock-review": ["knock_detection", "tune_matches_log", "live_edits_during_log"],
+REQUIRED = {"log-health-check": [], "log-capture-review": [], "diagnostics-scan": [], "fuel-trim-analysis": ["fuel", "wideband_valid", "tune_matches_log", "live_edits_during_log"], "ignition-knock-review": ["knock_detection", "tune_matches_log", "live_edits_during_log"],
             "boost-control-review": ["aspiration", "max_boost_kpa"], "injector-duty-review": [], "protection-review": ["max_rpm", "max_boost_kpa"]}
 
 def load_adapter(platform):
@@ -32,6 +33,7 @@ def execute(workflow, log, tune, profile):
     limits = Limits(profile.limits)
     if workflow == "log-health-check": res = analyses.log_health(log, profile)
     elif workflow == "log-capture-review": res = analyses.capture_review(log, profile)
+    elif workflow == "diagnostics-scan": res = diagnostics.scan(log, tabs, profile)
     elif workflow == "fuel-trim-analysis":
         if "ve" not in tabs:
             res = analyses.Result(workflow); res.refusals.append(dict(what="fuel table changes", why="No fuel table was supplied."))

@@ -2,7 +2,6 @@
 # Every value cites a source. `value: unknown` means no source supports a number: workflows refuse to proceed on it
 # unless the user declares a limit (in the setup profile), and then only in the conservative direction.
 version: 1
-status: draft
 verified: 2026-11-10
 limits:
   - id: lambda_na_full_load_min

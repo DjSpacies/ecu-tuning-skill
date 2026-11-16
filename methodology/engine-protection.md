@@ -2,7 +2,6 @@
 id: methodology/engine-protection
 title: Setting up engine protection
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

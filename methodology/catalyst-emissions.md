@@ -2,7 +2,6 @@
 id: methodology/catalyst-emissions
 title: Tuning a car that keeps its catalytic converter
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

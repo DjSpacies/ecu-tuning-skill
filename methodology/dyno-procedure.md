@@ -2,7 +2,6 @@
 id: methodology/dyno-procedure
 title: Dyno procedure
 layer: L2
-status: draft
 confidence: high
 sources: [practice]
 verified: 2026-11-11

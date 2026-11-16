@@ -2,7 +2,6 @@
 id: methodology/staged-injectors
 title: Staged injection
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

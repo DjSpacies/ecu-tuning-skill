@@ -8,7 +8,6 @@ with YAML frontmatter:
 id: principles/combustion/knock-basics
 title: Knock fundamentals
 layer: L1                 # L0|L1|L2|L3|L4
-status: draft             # draft|reviewed|established|disputed|deprecated
 confidence: medium        # low|medium|high
 sources: [engineering-texts, practice]    # ids from sources/registry.yaml
 verified: 2026-11-06

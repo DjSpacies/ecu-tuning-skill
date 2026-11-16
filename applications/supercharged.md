@@ -2,7 +2,6 @@
 id: applications/supercharged
 title: Supercharged profile
 layer: L4
-status: draft
 confidence: medium
 sources: [engineering-texts, practice]
 verified: 2026-11-11

@@ -2,7 +2,6 @@
 id: methodology/flex-fuel
 title: Flex fuel tuning
 layer: L2
-status: draft
 confidence: medium
 sources: [practice, reference-data]
 verified: 2026-11-11

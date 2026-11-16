@@ -13,6 +13,7 @@ CHANNELS = {
     "vehicle_speed": "km/h", "fuel_cut": "bool", "limiter_active": "bool", "wideband_ok": "bool",
     # The value the ECU itself read from a table at each sample. Where logged, it shows which calibration actually ran.
     "ve_out": "%", "ve_2_out": "%", "ign_out": "deg BTDC", "ign_2_out": "deg BTDC",
+    "fuel_dp_kpa": "kPa", "fuel_temp": "C", "oil_temp": "C", "knock_threshold": "", "trigger_errors": "count",
 }
 ROLES = {"ve", "ve_2", "fuel_ms", "ign_base", "ign_base_2", "lambda_target", "lambda_target_2", "boost_target", "wastegate_duty", "injector_dead_time", "injector_short_pulse",
          "cranking_fuel", "post_start_fuel", "warmup_fuel", "injection_timing", "dwell", "iat_fuel_comp", "ect_fuel_comp"}

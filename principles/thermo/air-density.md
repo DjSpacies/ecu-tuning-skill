@@ -2,7 +2,6 @@
 id: principles/thermo/air-density
 title: Air density from pressure, temperature and humidity
 layer: L0
-status: draft
 confidence: high
 sources: [engineering-texts, sae-j1349, practice]
 verified: 2026-11-11

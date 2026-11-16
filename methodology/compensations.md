@@ -2,7 +2,6 @@
 id: methodology/compensations
 title: Compensation tables
 layer: L2
-status: draft
 confidence: high
 sources: [practice, engineering-texts]
 verified: 2026-11-11

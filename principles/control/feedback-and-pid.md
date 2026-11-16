@@ -2,7 +2,6 @@
 id: principles/control/feedback-and-pid
 title: Feedback control and PID limits
 layer: L0
-status: draft
 confidence: high
 sources: [engineering-texts, practice]
 verified: 2026-11-11

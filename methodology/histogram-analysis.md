@@ -2,7 +2,6 @@
 id: methodology/histogram-analysis
 title: Confirming a tune with histograms
 layer: L2
-status: draft
 confidence: high
 sources: [practice, reference-data]
 verified: 2026-11-11

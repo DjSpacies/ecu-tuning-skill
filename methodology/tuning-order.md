@@ -2,7 +2,6 @@
 id: methodology/tuning-order
 title: Overall tuning order
 layer: L2
-status: draft
 confidence: high
 sources: [practice]
 verified: 2026-11-11

@@ -2,7 +2,6 @@
 id: principles/myths/lean-mixtures-melt-pistons
 title: Myth: lean mixtures themselves melt pistons
 layer: L1
-status: draft
 confidence: medium
 sources: [practice, engineering-texts]
 verified: 2026-11-11

@@ -2,7 +2,6 @@
 id: principles/boost/exhaust-back-pressure
 title: Exhaust back pressure
 layer: L1
-status: draft
 confidence: medium
 sources: [engineering-texts, practice]
 verified: 2026-11-11

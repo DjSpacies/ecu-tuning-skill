@@ -2,7 +2,6 @@
 id: principles/fuels/stoichiometry-and-lambda
 title: Stoichiometry and lambda across fuels
 layer: L0
-status: draft
 confidence: high
 sources: [engineering-texts, reference-data, practice]
 verified: 2026-11-11

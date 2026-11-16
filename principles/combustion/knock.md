@@ -2,7 +2,6 @@
 id: principles/combustion/knock
 title: Knock and surface ignition
 layer: L1
-status: draft
 confidence: high
 sources: [engineering-texts, reference-data, practice]
 verified: 2026-11-11

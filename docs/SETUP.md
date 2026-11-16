@@ -30,10 +30,10 @@ tuning?". The project's CLAUDE.md tells the agent where things are and how to ke
 | Haltech CSV logs | read (check column names against your export) |
 | Speeduino / rusEFI / MegaSquirt tunes (.msq) | read |
 | Other ECUs (see platforms/) | documentation only |
-| Workflows | log capture plan and review, log health, fuel trim, VE correction, ignition and knock, boost, injector duty, protection review, road/dyno run cards, live session |
+| Workflows | log capture plan and review, log health, diagnostics scan (likely cause of a symptom), fuel trim, VE correction, ignition and knock, boost, injector duty, protection review, road/dyno run cards, live session |
 | Tune diff | any two tunes of a supported platform |
 | Writing tunes | not supported by design: proposals are diffs for a person to enter |
-| Live ECU connection | through any tool implementing docs/MCP-INTERFACE.md |
+| Live ECU connection | through any tool implementing docs/MCP-INTERFACE.md; for Link G4+, [link-g4plus-mcp](https://github.com/DjSpacies/link-g4plus-mcp) |
 
 ## Updating
     cd ~/.claude/skills/ecu-tuning && git pull

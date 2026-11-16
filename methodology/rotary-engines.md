@@ -2,7 +2,6 @@
 id: methodology/rotary-engines
 title: Rotary engine tuning
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

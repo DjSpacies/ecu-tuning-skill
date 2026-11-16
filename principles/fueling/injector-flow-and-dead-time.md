@@ -2,7 +2,6 @@
 id: principles/fueling/injector-flow-and-dead-time
 title: Injector flow, dead time and duty
 layer: L1
-status: draft
 confidence: high
 sources: [engineering-texts, reference-data, practice]
 verified: 2026-11-11

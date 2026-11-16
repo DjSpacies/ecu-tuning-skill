@@ -2,7 +2,6 @@
 id: applications/direct-injection
 title: Direct injection profile
 layer: L4
-status: draft
 confidence: low
 sources: [engineering-texts, practice]
 verified: 2026-11-11

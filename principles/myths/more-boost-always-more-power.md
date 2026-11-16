@@ -2,7 +2,6 @@
 id: principles/myths/more-boost-always-more-power
 title: Myth: a higher boost number always means more power
 layer: L1
-status: draft
 confidence: medium
 sources: [practice, engineering-texts]
 verified: 2026-11-11

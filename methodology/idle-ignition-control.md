@@ -2,7 +2,6 @@
 id: methodology/idle-ignition-control
 title: Idle ignition control
 layer: L2
-status: draft
 confidence: high
 sources: [practice]
 verified: 2026-11-11

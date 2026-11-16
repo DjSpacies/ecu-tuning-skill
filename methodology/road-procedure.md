@@ -2,7 +2,6 @@
 id: methodology/road-procedure
 title: Road and track procedure
 layer: L2
-status: draft
 confidence: high
 sources: [practice]
 verified: 2026-11-11

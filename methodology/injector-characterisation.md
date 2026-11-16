@@ -2,7 +2,6 @@
 id: methodology/injector-characterisation
 title: Injector data before fuel tuning
 layer: L2
-status: draft
 confidence: high
 sources: [practice, reference-data]
 verified: 2026-11-11

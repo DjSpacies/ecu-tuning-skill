@@ -2,7 +2,6 @@
 id: principles/combustion/mixture-and-power
 title: Mixture, power and combustion temperature
 layer: L1
-status: draft
 confidence: high
 sources: [engineering-texts, practice]
 verified: 2026-11-11

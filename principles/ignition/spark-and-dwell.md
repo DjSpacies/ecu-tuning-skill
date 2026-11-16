@@ -2,7 +2,6 @@
 id: principles/ignition/spark-and-dwell
 title: Spark energy and dwell
 layer: L1
-status: draft
 confidence: high
 sources: [engineering-texts, practice]
 verified: 2026-11-11

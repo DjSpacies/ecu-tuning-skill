@@ -2,7 +2,6 @@
 id: applications/naturally-aspirated
 title: Naturally aspirated profile
 layer: L4
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

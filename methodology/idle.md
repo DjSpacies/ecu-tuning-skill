@@ -2,7 +2,6 @@
 id: methodology/idle
 title: Idle tuning
 layer: L2
-status: draft
 confidence: high
 sources: [practice]
 verified: 2026-11-11

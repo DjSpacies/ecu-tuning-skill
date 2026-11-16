@@ -2,7 +2,6 @@
 id: methodology/fuel-model-load
 title: Fuel model and load axis selection
 layer: L2
-status: draft
 confidence: medium
 sources: [practice, engineering-texts]
 verified: 2026-11-11

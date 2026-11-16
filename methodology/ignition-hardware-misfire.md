@@ -2,7 +2,6 @@
 id: methodology/ignition-hardware-misfire
 title: Ignition misfire and spark plug selection
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

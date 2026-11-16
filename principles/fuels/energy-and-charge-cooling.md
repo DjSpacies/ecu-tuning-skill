@@ -2,7 +2,6 @@
 id: principles/fuels/energy-and-charge-cooling
 title: Fuel energy, latent heat and charge cooling
 layer: L0
-status: draft
 confidence: medium
 sources: [engineering-texts, reference-data, practice]
 verified: 2026-11-11

@@ -2,7 +2,6 @@
 id: methodology/launch-and-antilag
 title: Launch control and anti-lag
 layer: L2
-status: draft
 confidence: medium
 sources: [practice]
 verified: 2026-11-11

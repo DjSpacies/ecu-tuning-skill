@@ -2,7 +2,6 @@
 id: methodology/combustion-afr-targets
 title: Planning lambda targets
 layer: L2
-status: draft
 confidence: medium
 sources: [practice, engineering-texts]
 verified: 2026-11-11

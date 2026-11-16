@@ -2,7 +2,6 @@
 id: platforms/speeduino/semantics
 title: How Speeduino fuel tables behave
 layer: L3
-status: draft
 confidence: low
 sources: [vendor-documentation]
 verified: 2026-11-10

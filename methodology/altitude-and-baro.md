@@ -2,7 +2,6 @@
 id: methodology/altitude-and-baro
 title: Altitude and barometric pressure
 layer: L2
-status: draft
 confidence: medium
 sources: [practice, engineering-texts]
 verified: 2026-11-11

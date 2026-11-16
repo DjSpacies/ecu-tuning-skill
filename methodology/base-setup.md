@@ -2,7 +2,6 @@
 id: methodology/base-setup
 title: Base setup and pre-start checks
 layer: L2
-status: draft
 confidence: high
 sources: [practice]
 verified: 2026-11-11

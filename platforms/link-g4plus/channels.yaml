@@ -51,9 +51,24 @@ channels:
   - match: 'Oil Pressure$'
     canonical: oil_pressure_kpa
     convert: by_unit_pressure
-  - match: 'Fuel Pressure$'
+  - match: '^Differential Fuel Pressure$|^Fuel Diff(erential)? Pressure$'
+    canonical: fuel_dp_kpa
+    convert: by_unit_pressure
+  - match: '(^|- )Fuel Pressure$'
     canonical: fuel_pressure_kpa
     convert: by_unit_pressure
+  - match: '^Fuel Temperature$|^Fuel Temp\.?$'
+    canonical: fuel_temp
+    convert: none
+  - match: '^Oil Temperature$|^Engine Oil Temp$'
+    canonical: oil_temp
+    convert: none
+  - match: '^Knock Threshold$'
+    canonical: knock_threshold
+    convert: none
+  - match: '^Trig1 Err(or)? Counter$'
+    canonical: trigger_errors
+    convert: none
   - match: 'WideBand$|^Lambda ?1?$'
     canonical: lambda
     convert: by_unit_lambda

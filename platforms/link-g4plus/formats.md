@@ -2,7 +2,6 @@
 id: platforms/link-g4plus/formats
 title: Link G4+ file formats
 layer: L3
-status: draft
 confidence: medium
 sources: [vendor-documentation, file-format-analysis]
 verified: 2026-11-10

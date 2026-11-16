@@ -2,7 +2,6 @@
 id: platforms/reflash-tools/semantics
 title: Factory ECU reflash tools
 layer: L3
-status: draft
 confidence: low
 sources: [vendor-documentation]
 verified: 2026-11-10
