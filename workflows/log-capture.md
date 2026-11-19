@@ -14,7 +14,7 @@ work. The quality of a log sets the quality of every answer drawn from it.
 - methodology/log-capture-protocol
 - methodology/data-quality
 - safety/limits.yaml and safety/aborts.yaml
-- the platform's semantics.md and channels.yaml
+- the platform's semantics (where its README lists topic files: the overview plus the `io` topic file) and channels.yaml
 
 ## Steps
 1. **Plan.** From methodology/log-capture-protocol, give the user a short capture plan for their analysis: what to save

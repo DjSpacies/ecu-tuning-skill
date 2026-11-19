@@ -8,7 +8,7 @@
 ## Load only
 - methodology/engine-protection
 - safety/limits.yaml
-- the platform's semantics.md and quirks.md
+- the platform's semantics and quirks (where the platform's README lists topic files: the overview files plus the `control` topic files)
 
 ## Steps
 1. Ask once for the engine's rev limit and boost ceiling.

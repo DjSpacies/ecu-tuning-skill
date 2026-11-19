@@ -9,7 +9,7 @@
 - methodology/data-quality and methodology/log-capture-protocol
 - tools/analysis/diagnostics.py, only the test a finding names in its `diagnostic` field
 - the KB entry a finding points to, when the user wants the reasoning
-- the platform's semantics.md and quirks.md
+- the platform's semantics and quirks (where the platform's README lists topic files: the overview files plus the topic files the findings touch)
 
 ## Steps
 1. Run the log health check first. Do not diagnose a log that fails it.

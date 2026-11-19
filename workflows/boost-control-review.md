@@ -11,7 +11,7 @@
 - principles/boost/compressor-and-surge
 - principles/control/feedback-and-pid
 - safety/limits.yaml and safety/aborts.yaml
-- the platform's semantics.md and quirks.md
+- the platform's semantics and quirks (where the platform's README lists topic files: the overview files plus the `control` topic files)
 
 ## Steps
 1. Build the setup profile (docs/SETUP-PROFILE.md). Ask once for what inference could not supply.
